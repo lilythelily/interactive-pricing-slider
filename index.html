@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Simple, traffic-based pricing</h1>
+      <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+
+      <section>
+        <div class="upper-container">
+    
+            <p class="pageviews">
+              <span class="view-counter">100K</span>
+              Pageviews
+            </p>
+
+            <p class="monthly-price">
+              <span class="price-counter">$16.00</span>/ month
+            </p>
+     
+
+          <div class="slider-container">
+            <input type="range" min="0" max="4" value="2" step="1" class="slider"></div>
+          
+
+          <div class="billing-wrapper">
+            <p class="billing">Monthly Billing</p>
+            <div class="toggle-btn"></div>
+            <p class="billing">Yearly Billing</p>
+            <div class="discount" id="discount-desktop">25% discount</div>
+            <div class="discount" id="discount-mobile">-25%</div>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <ul>
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />Unlimited
+              websites
+            </li>
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />100% data
+              ownership
+            </li>
+            <li>
+              <img src="./images/icon-check.svg" alt="check" />Email reports
+            </li>
+          </ul>
+
+          <button type="button" class="start-btn">Start my trial</button>
+        </div>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by KA.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
